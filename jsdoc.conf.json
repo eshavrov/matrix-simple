@@ -1,0 +1,22 @@
+{
+    "source" : {
+        "include": ["./src/matrix-simple.js"]
+    },
+    "opts" : {
+        "destination" : "./docs",
+        "encoding": "utf8",  
+        "readme" : "README.md",
+        "template": "./node_modules/docdash"
+    },
+    "templates" : {
+        "default" : {
+            "outputSourceFiles" : true,
+            "useLongnameInNav" : true
+        },
+        "useLongnameInNav": true,
+        "cleverLinks": true,
+        "monospaceLinks": true
+    },
+    "plugins": ["plugins/markdown",
+        "plugins/summarize"]
+}

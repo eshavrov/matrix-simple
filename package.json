@@ -1,0 +1,21 @@
+{
+  "name": "matrix-simple",
+  "version": "0.0.1",
+  "description": "Simple operations with matrix",
+  "main": "./src/matrix-simple.js",
+  "scripts": {
+    "docs": "./node_modules/.bin/jsdoc --configure jsdoc.conf.json",
+    "docs-dev": "./node_modules/.bin/jsdoc --configure jsdoc.conf.json --private --destination ./docs-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eshavrov/matrix-simple.git"
+  },
+  "keywords": ["matrix", "math", "transpose", "rotate"],
+  "author": "Evgeniy Shavrov <shavrov.ep@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "docdash": "^0.4.0",
+    "jsdoc": "^3.5.5"
+  }
+}
